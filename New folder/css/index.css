@@ -1,0 +1,68 @@
+@import url(animate.css);
+@import url(bootstrap.css);
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Muli);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(metro-bootstrap.min.css);
+@import url(m-styles.css);
+
+body
+{
+  overflow-x:hidden;
+}
+
+h1
+{
+  font-size: 54px
+}
+
+p
+{
+  font-size: 24px
+}
+
+.jumbotron .mainh1
+{
+  font-family: 'Pacifico';
+  font-size: 100px;
+}
+
+.jumbotron
+{
+  height: 100%;
+  background-image: url(../img/teacher.jpg);
+  background-size: cover;
+  background-color: rgba(255,255,255,0.5);
+  background-attachment: fixed;
+  margin-bottom: 0;
+  color: #000
+}
+
+.containerpad
+{
+  padding-top: 25%;
+}
+
+.quasicontainer
+{
+  padding-top: 15%;
+}
+
+.inline
+{
+  display: inline;
+}
+
+.about
+{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.m-btn
+{
+  background: #000;
+  color: #FFF
+}
