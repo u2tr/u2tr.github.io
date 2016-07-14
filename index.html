@@ -1,162 +1,106 @@
-<html>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-<head>
-    <title>U2TR</title>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script type="text/javascript" src="js/modernizr.js"></script>
-    <!-- Modernizr -->
-    <script src="/js/jQuery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/ripple.js"></script>
-    <script type="text/javascript" src="js/WOW.js"></script>
-    <script type="text/javascript" src="js/jquery.textfill.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/jquery.colorbox.js"></script>
-    <link href="css/m-styles.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/commit.png">
-    <script src="js/main.js"></script>
-    <!-- Gem jQuery -->
-    <script type="text/javascript">
-    new WOW().init();
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-    <meta name="Author" content="u2tr" />
-    <meta property="og:title" content="u2tr" />
-    <meta property="og:description" content="u2tr - Peer Tutoring. Redefined" />
-    <meta property="og:url" content="http://www.u2tr.com/" />
-    <meta property="og:image" content="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13439230_1097528203660200_504325191947307095_n.png?oh=db3d761bad07113b0bc187ace0590bde&oe=580866DB" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="u2tr" />
-    <!-- Opera Speed Dial Favicon -->
-    <link rel="icon" type="image/png" href="img/logo.png" />
-    <!-- Standard Favicon -->
-    <link rel="icon" type="image/x-icon" href="img/logo.png" />
-    <!-- For iPhone 4 Retina display: -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/logo.png">
-    <!-- For iPad: -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo.png">
-    <!-- For iPhone: -->
-    <link rel="apple-touch-icon-precomposed" href="img/logo.png">
-</head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
 
-<body>
-    <div style="height: 100%;width: 100%" id="body">
-        <div id="my-element" style="height: 100%;background: url(/img/bg1.jpg);background-size:cover;background-position:center;background-attachment:fixed" align="center">
-            <div style="width: 100%;height: 100%;background: rgba(5,5,5,0.5);">
-                <div class="container element" align="center">
-                    <div id="fit"><span class="title wow fadeInUp" style="color: #FFF">u2tr</span></div>
-                    <h3 style="color:#FFF;font-family:Gidole;text-transform:uppercase">Peer tutoring. 
-                	<span id="content-1">Redefined</span><span id="content-2">Gamified</span><span id="content-3">Socialized</span><span id="content-4">Redesigned</span><span id="content-5">Augmented</span>.</h3>
-                    <a href="#about" class="video_layer">
-                        <h1 class="fa-stack fa-lg animated bounce" style="color:#FFF">
-  						<i class="fa fa-circle-thin fa-stack-2x"></i>
-  						<i class="fa fa-caret-down fa-stack-1x"></i>
-					</h1>
-                    </a>
-                </div>
-            </div>
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
         </div>
-    </div>
-    <div id="about">
-        <div class="container" align="right">
-            <div class="row">
-                <div class="col m6">
-                    <h1 style="text-transform: uppercase">Unbounded by <span class="title" id="content2-1">University</span><span class="title" id="content2-2">Major</span><span class="title" id="content2-3">Classes</span><span class="title" id="content2-4">Geography</span></h1>
-                    <br>
-                    <h5>Simply post a subject you're having difficulty with, and when you're free.<br><br>Your peers will stumble upon your request, and request to tutor you. <b>The struggle is out of your hands</b>. </h5>
-                    <br>
-                </div>
-                <div class="col m6">
-                    <iframe src="https://player.vimeo.com/video/172449983" width="100%" id="video" style=""></iframe>
-                </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
             </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-        <div id="screenshots" style="background: url(/img/bg2.jpg);background-size:cover;background-position:center">
-            <div style="background: rgba(5,5,5,0.5);">
-                <div class="container" align="center">
-                    <div class="row" style="position:relative;margin:0" align="center">
-                        <div class="col m4 phonepic" style="background: url(/img/screenshot1.png);background-size:contain;position:relative;float:right"></div>
-                        <div class="col m4 phonepic" style="background: url(/img/screenshot3.png);background-size:contain;position:relative;float:left"></div>
-                        <div class="col m4 phonepic" style="background: url(/img/screenshot2.png);background-size:contain;position:relative;float:left"></div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-        <footer class="page-footer" style="margin:0;background: #000;color:#FFF" align="center">
-            <div class="container">
-                <h1 class="title">join the beta</h1>
-                <form action="https://u2tr.us13.list-manage.com/subscribe/post?u=e3b8c7d3b0ded57301219750e&amp;id=e758c3d65d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input id="first_name" name="FNAME" type="text" class="form-control">
-                            <label for="first_name">Name</label>
-                        </div>
-                        <div class="input-field col s6" align="left">
-                            <input id="last_name" type="email" class="validate" name="EMAIL">
-                            <label for="email" data-error="wrong" data-success="right">Email</label>
-                        </div>
-                    </div>
-                    <div class="row center">
-                        <button type="submit" class="btn large waves-effect waves-light dark-red btn-lg">Sign Up!</button>
-                    </div>
-                </form>
-                <h1 style="color: #FFF"><a href="http://fb.com/utwotr"><i class="fa fa-facebook wow fadeInUp" data-wow-delay="500ms"></i></a> <a href="http://twitter.com/utwotr"><i class="fa fa-twitter wow fadeInUp" data-wow-delay="250ms"></i></a> <a href="http://angel.co/u2tr"><i class="fa fa-angellist wow fadeInUp"></i></a> <a href="http://github.com/u2tr"><i class="fa fa-github wow fadeInUp" data-wow-delay="250ms"></i></a> <a href="http://instagram.com/u2tr"><i class="fa fa-instagram wow fadeInUp" data-wow-delay="500ms"></i></a></h1>
-            </div>
-            <div class="footer-copyright">
-                <div class="container">
-                    © 2014 Copyright Text
-                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <div style="height: 100%;width: 100%" align="center" id="loadingbody">
-        <div id="loading" class="element"></div>
-    </div>
-    <script src="/js/jquery.fittext.js"></script>
-    <script>
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-        window.location = "/mobile.html"
-    }
-    $("#video").css('height', (36 / 64) * $("#video").width())
-    $("#fit").fitText();
-    var divs = $('span[id^="content-"]').hide(),
-        i = 0;
+      </div>
 
-    (function cycle() {
+      <hr>
 
-        divs.eq(i).fadeIn(400)
-            .delay(1000)
-            .fadeOut(400, cycle);
+      <footer>
+        <p>&copy; Company 2015</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        i = ++i % divs.length;
+        <script src="js/vendor/bootstrap.min.js"></script>
 
-    })();
-    var divs2 = $('span[id^="content2-"]').hide(),
-        a = 0;
+        <script src="js/main.js"></script>
 
-    (function cycle() {
-
-        divs2.eq(a).fadeIn(400)
-            .delay(1000)
-            .fadeOut(400, cycle);
-
-        a = ++a % divs2.length;
-
-    })();
-    $(".phonepic").css('width', $(".m4").width())
-    $(".phonepic").css('height', $(".m4").width() * (192 / 108))
-    $("#body").hide();
-    $("#loading").show();
-    $(document).ready(function() {
-        $("#loadingbody").hide();
-        $("#body").show();
-    })
-    </script>
-</body>
-
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
 </html>
