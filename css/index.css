@@ -1,10 +1,6 @@
 @import url(animate.css);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Muli);
-@import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(lightbox.min.css)
+@import url('https://fonts.googleapis.com/css?family=Bitter|Cabin|Hind|Muli|Oxygen|Poppins');
 
 html,
 body {
@@ -23,7 +19,7 @@ body {
 }
 
 .title {
-    font-family: Code;
+    font-family: Cabin;
 }
 
 .element {
@@ -34,7 +30,8 @@ body {
 
 *
 {
-    font-family: Gidole
+    font-family: Muli;
+    color: #1F121
 }
 
 h1
@@ -65,20 +62,20 @@ h1
     -webkit-animation-timing-function: linear;
 }
 
-.border
-{
-  display: inline-block;
-  border-radius: 50%;
-  box-shadow: 0px 0px 2px #888;
-}
-
 .container
 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.fa
-{
+nav {
+    background: black;
+    box-shadow: none;
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+.main {
+    height: 75%;
     color: #FFF
 }
